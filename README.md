@@ -28,4 +28,5 @@ byte >> shift -> 00001010
 ```
 
 #### Notes
-It is highly recomended to use ``unsigned char``, and ``unsigned`` objects in the general case, in order to avoid machine- and compiler-specific behaviors.
+* It is highly recomended to use ``unsigned char``, and ``unsigned`` objects in the general case, in order to avoid machine- and compiler-specific behaviors.
+* You may need a tool to convert back and forth various number representations, check [this](https://github.com/MrRomanMaccaruni/BASH-utilities) (Bash only).
