@@ -1,3 +1,21 @@
+// Copyright 2015, Alessandro Fabbri
+// for any question, please mail rommacc@yahoo.it
+
+/************************************************************************
+* This program is free software: you can redistribute it and/or modify  *
+* it under the terms of the GNU General Public License as published by  *
+* the Free Software Foundation, either version 3 of the License, or     *
+* (at your option) any later version.                                   *
+*                                                                       *
+* This program is distributed in the hope that it will be useful,       *
+* but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+* GNU General Public License for more details.                          *
+*                                                                       *
+* You should have received a copy of the GNU General Public License     *
+* along with this program.  If not, see <http://www.gnu.org/licenses/>. *
+************************************************************************/
+
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -18,7 +36,7 @@ int main(){
   unsigned char shift = 0x4;		// check out www.github.com/MrRomanMaccaruni/BASH-utilities
   
   cout << "Byte to be bitwise manipulated" << endl;
-  print_bits("byte      ", byte);
+  print_bits("byte         ", byte);
   
   cout << endl << "Bitmask to switch ON bit 3" << endl;
   print_bits("mask on      ", on);
